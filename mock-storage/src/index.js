@@ -43,4 +43,5 @@ app.post("/upload", (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Microservice online`);
+    console.log("Testing GitHub Action...");
 });

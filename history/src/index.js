@@ -109,6 +109,7 @@ async function main() {
     //
     app.listen(PORT, () => {
         console.log("Microservice online.");
+        console.log("Testing GitHub Action...");
     });
 }
 
