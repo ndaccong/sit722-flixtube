@@ -108,7 +108,7 @@ if (require.main === module) {
         .catch(err => {
             console.error("Microservice failed to start.");
             console.error(err && err.stack || err);
-            console.log("Testing GitHub Action...")
+            // console.log("Testing GitHub Action...")
         });
 }
 else {
